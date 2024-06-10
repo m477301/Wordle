@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.parent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+}
+
+button {
+    display: none;
+}
